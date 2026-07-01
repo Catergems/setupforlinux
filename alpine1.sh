@@ -4,7 +4,7 @@ echo "Procressing start!"
 sudo apk update && apk upgrade
 sudo apk add nvim
 
-cat > ~/.config/fish/config.fish << 'EOF'
+cat > ~/.config/fish/config.fish <<'EOF'
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
